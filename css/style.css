@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(65, 60, 60, 0.826);
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.cajaBorde {
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    height: 100vh;
+}
+
+@media (min-width: 30px) and (max-width: 992px) {
+        .Miniaturas {
+            display: none;
+        }
+}
